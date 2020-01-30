@@ -1,17 +1,13 @@
-const inquirer = require("mysql");
+const inquirer = require("inquirer");
 const mysql = require("mysql")
 const mainFunctions = require("./lib/mainFunctions")
-
-var connection = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "Sandy408",
-    database: "employees",
-  });
+const connection = require("./lib/connection")
 
 connection.connect();
 
   init = () => {
+    console.log("\n");
+    console.log("Welcome to The Employee Database Manager!");
     inquirer.prompt([
         {
             type: "list",
@@ -43,6 +39,7 @@ connection.connect();
             break;
         
             case "Quit":
+            console.log("Ending Session...")
             connection.end();
         }
         
