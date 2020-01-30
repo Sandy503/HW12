@@ -23,19 +23,19 @@ connection.connect();
             case "View Departments" : mainFunctions.viewDepartments();
             break;
 
-            case "View all roles": mainFunctions.viewRoles();
+            case "View Roles" : mainFunctions.viewRoles();
             break;
 
-            case "Add employee" : mainFunctions.addEmployee();      
+            case "Add Employee" : mainFunctions.addEmployee();      
             break;
 
-            case "Add department" : mainFunctions.addDepartment();
+            case "Add Department" : mainFunctions.addDepartment();
             break;
 
-            case "Add role" : mainFunctions.addRole();
+            case "Add Role" : mainFunctions.addRole();
             break;   
 
-            case "Update employee role" : mainFunctions.updateRole();
+            case "Update Employee Role" : mainFunctions.updateRole();
             break;
         
             case "Quit":
