@@ -34,7 +34,7 @@ connection.connect();
             case "Add Role" : mainFunctions.addRole();
             break;   
 
-            case "Update Employee Role" : mainFunctions.updateRole();
+            case "Update Employee Role" : mainFunctions.updateEmployeeRole();
             break;
         
             case "Quit":
