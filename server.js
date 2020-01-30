@@ -1,7 +1,6 @@
 const inquirer = require("inquirer");
-const mysql = require("mysql")
-const mainFunctions = require("./lib/mainFunctions")
-const connection = require("./lib/connection")
+const mainFunctions = require("./lib/mainFunctions");
+const connection = require("./lib/connection");
 
 connection.connect();
 
